@@ -5,8 +5,8 @@
   grid-template-areas:
   "nav nav nav nav"
   ". hleft hright hright"
-  "aleft main main aright"
-  "footer footer footer footer";
+  ". main main ."
+  "aleft footer footer aright";
 }
 
 html {
@@ -29,6 +29,10 @@ nav {
 h1 {
   font-size: 43px;
   font-family: helvetica;
+}
+
+#h1 {
+
 }
 
 ul {
@@ -278,15 +282,39 @@ h4 {
   color: white;
 }
 
+/* footer */
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.footercolor {
+  color: white;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#paddingright {
+  padding-right: 0;
+}
 
 
 
 aside.aleft {
   grid-area: aleft;
+  background-color: black;
 }
 
 aside.aright {
   grid-area: aright;
+  background-color: black;
 }
 
 footer {
