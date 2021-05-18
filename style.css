@@ -203,19 +203,22 @@ main {
 .kombox1 {
   background-color: #0090C1;
   width: 100%;
+  height: 100%;
   margin-right: 5px;
 }
 
 .kombox2 {
   background-color: #FE9213;
   width: 100%;
+  height: 100%;
   margin: 0 5px;
 }
 
 .kombox3 {
   background-color: #1C3F74;
   width: 100%;
-  margin-right: 5px;
+  height: 100%;
+  margin-left: 5px;
 }
 
 
