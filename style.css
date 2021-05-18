@@ -96,6 +96,7 @@ header.hright {
   grid-area: hright;
   background-color: #1C3F74;
   margin-right: 0;
+  margin-left: 5px;
 }
 
 .headerimg {
