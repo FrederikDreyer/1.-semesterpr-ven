@@ -261,6 +261,7 @@ p {
 .kontaktbox {
   background-color: #1C3F74;
   margin-bottom: 100px;
+  padding: 40px;
 }
 
 h4 {
@@ -268,10 +269,15 @@ h4 {
   color: white;
 }
 
+.kontaktboxtekst {
+  padding: 40px 0;
+}
+
 .linkedinlink {
   text-decoration: none;
   color: white;
 }
+
 
 
 
