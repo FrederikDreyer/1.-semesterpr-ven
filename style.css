@@ -204,30 +204,74 @@ main {
   background-color: #0090C1;
   width: 100%;
   height: 100%;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .kombox2 {
   background-color: #FE9213;
   width: 100%;
   height: 100%;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 .kombox3 {
   background-color: #1C3F74;
   width: 100%;
   height: 100%;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
+/* kompetencer text */
 
+.komtext {
+  display: flex;
+  margin-top: 20px;
+}
 
+.komtextbox1 {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
 
+.komtextbox2 {
+  width: 100%;
+  margin: 0 20px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
 
+.komtextbox3 {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
 
+p {
+  font-family: helvetica;
+}
 
+/* Kontakt */
 
+#kontakt {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.kontaktbox {
+  background-color: #1C3F74;
+  margin-bottom: 100px;
+}
+
+h4 {
+  font-family: helvetica;
+  color: white;
+}
+
+.linkedinlink {
+  text-decoration: none;
+  color: white;
+}
 
 
 
