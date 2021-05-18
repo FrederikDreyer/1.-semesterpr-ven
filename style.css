@@ -129,16 +129,16 @@ main {
 
 .box1 {
   background-color: #1C3F74;
-  width: 100vh;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
   margin-right: 5px;
   margin-bottom: 5px;
 }
 
 .box2 {
   background-color: #0090C1;
-  width: 100vh;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
   margin-left: 5px;
   margin-bottom: 5px;
 }
@@ -149,8 +149,8 @@ main {
 
 .box3 {
   background-color: #FE9213;
-  width: 100vh;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
   margin-right: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -158,8 +158,8 @@ main {
 
 .box4 {
   background-color: #38AECC;
-  width: 100vh;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
   margin-left: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -171,18 +171,22 @@ main {
 
 .box5 {
   background-color: #1C3F74;
-  width: 100vh;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
   margin-right: 5px;
   margin-top: 5px;
 }
 
 .box6 {
   background-color: #0090C1;
-  width: 100vh;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
   margin-left: 5px;
   margin-top: 5px;
+}
+
+.imgbox {
+  width: 100%;
 }
 
 /* Kompetencer */
@@ -192,7 +196,27 @@ main {
   padding-bottom: 50px;
 }
 
+.komwrapper {
+  display: flex;
+}
 
+.kombox1 {
+  background-color: #0090C1;
+  width: 100%;
+  margin-right: 5px;
+}
+
+.kombox2 {
+  background-color: #FE9213;
+  width: 100%;
+  margin: 0 5px;
+}
+
+.kombox3 {
+  background-color: #1C3F74;
+  width: 100%;
+  margin-right: 5px;
+}
 
 
 
