@@ -150,6 +150,11 @@ main {
   margin-bottom: 5px;
 }
 
+.box1:hover {
+  filter: blur(4px);
+  transition: 0.5s;
+}
+
 .box2 {
   background-color: #0090C1;
   width: 100%;
