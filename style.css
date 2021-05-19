@@ -7,10 +7,20 @@
   ". hleft hright hright"
   ". main main ."
   "aleft footer footer aright";
+  overflow: hidden;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
 }
 
 /* Navigation bar */
@@ -96,6 +106,7 @@ h3 {
 
 .butnhead:hover {
   background-color: #0090C1;
+  transition: 0.5s;
 }
 
 /* Header to the right */
@@ -202,6 +213,8 @@ main {
 
 .komwrapper {
   display: flex;
+  position: relative;
+  z-index: 2;
 }
 
 .kombox1 {
@@ -230,6 +243,7 @@ main {
 .komtext {
   display: flex;
   margin-top: 20px;
+  position: relative;
 }
 
 .komtextbox1 {
@@ -255,6 +269,18 @@ p {
   font-family: helvetica;
 }
 
+/* billede til kompetencer */
+
+.imgkom {
+  width: 375px;
+  height: 562.5px;
+  background-image: url(billeder/migmedcom.png);
+  position: absolute;
+  bottom: 0;
+  right: -375px;
+  z-index: 1;
+}
+
 /* Kontakt */
 
 #kontakt {
@@ -266,6 +292,7 @@ p {
   background-color: #1C3F74;
   margin-bottom: 100px;
   padding: 40px;
+  position: relative;
 }
 
 h4 {
@@ -280,6 +307,18 @@ h4 {
 .linkedinlink {
   text-decoration: none;
   color: white;
+}
+
+/* Billede til kontakt */
+
+.imgkontakt {
+  width: 375px;
+  height: 562.5px;
+  background-image: url(billeder/migmedtlf.png);
+  position: absolute;
+  bottom: -100px;
+  left: -375px;
+  z-index: 1;
 }
 
 /* footer */
@@ -321,7 +360,15 @@ footer {
   grid-area: footer;
 }
 
-body * {
-  margin: 0;
-  padding: 0;
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav nav nav nav"
+    ". hleft hright hright"
+    ". main main ."
+    "aleft footer footer aright";
+  }
 }
