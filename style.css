@@ -122,7 +122,6 @@ header.hright {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-
   display: block;
 }
 
@@ -138,7 +137,7 @@ main {
   padding-bottom: 50px;
 }
 
-.boxwrapper1 {
+.boxwrapper {
   display: flex;
 }
 
@@ -148,11 +147,8 @@ main {
   height: 100%;
   margin-right: 5px;
   margin-bottom: 5px;
-}
-
-.box1:hover {
-  filter: blur(4px);
-  transition: 0.5s;
+  text-align: center;
+  position: relative;
 }
 
 .box2 {
@@ -161,10 +157,8 @@ main {
   height: 100%;
   margin-left: 5px;
   margin-bottom: 5px;
-}
-
-.boxwrapper2 {
-  display: flex;
+  text-align: center;
+  position: relative;
 }
 
 .box3 {
@@ -174,6 +168,8 @@ main {
   margin-right: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
+  text-align: center;
+  position: relative;
 }
 
 .box4 {
@@ -183,10 +179,8 @@ main {
   margin-left: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
-}
-
-.boxwrapper3 {
-  display: flex;
+  text-align: center;
+  position: relative;
 }
 
 .box5 {
@@ -195,6 +189,8 @@ main {
   height: 100%;
   margin-right: 5px;
   margin-top: 5px;
+  text-align: center;
+  position: relative;
 }
 
 .box6 {
@@ -203,10 +199,30 @@ main {
   height: 100%;
   margin-left: 5px;
   margin-top: 5px;
+  text-align: center;
+  position: relative;
 }
 
 .imgbox {
   width: 100%;
+}
+
+/* Teksten i boxene */
+
+.boxtexst {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Hover til alle boxene */
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover {
+  filter: contrast(70%);
+  transition: 0.5s;
 }
 
 /* Kompetencer */
