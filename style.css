@@ -331,6 +331,11 @@ h4 {
   color: white;
 }
 
+.maillink {
+  text-decoration: none;
+  color: white;
+}
+
 /* Billede til kontakt */
 
 .imgkontakt {
