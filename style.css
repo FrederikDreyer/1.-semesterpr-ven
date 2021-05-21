@@ -296,7 +296,7 @@ p {
 .imgkom {
   width: 375px;
   height: 562.5px;
-  background-image: url(billeder/migmedcom.png);
+  background-image: url(billeder/migmedmac.png);
   position: absolute;
   bottom: 0;
   right: -370px;
@@ -341,7 +341,7 @@ h4 {
 .imgkontakt {
   width: 375px;
   height: 562.5px;
-  background-image: url(billeder/migmedtlf.png);
+  background-image: url(billeder/migmediphone.png);
   position: absolute;
   bottom: -100px;
   left: -375px;
