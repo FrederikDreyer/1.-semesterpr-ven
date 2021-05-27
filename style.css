@@ -242,22 +242,26 @@ main {
 .kombox1 {
   background-color: #0090C1;
   width: 100%;
-  height: 100%;
-  margin-right: 10px;
+  height: auto;
+
 }
 
 .kombox2 {
   background-color: #FE9213;
   width: 100%;
-  height: 100%;
-  margin: 0 10px;
+  height: auto;
+
 }
 
 .kombox3 {
   background-color: #1C3F74;
   width: 100%;
-  height: 100%;
-  margin-left: 10px;
+  height: auto;
+
+}
+
+.kommidt {
+  padding: 0 20px;
 }
 
 /* kompetencer text */
@@ -271,20 +275,19 @@ main {
 .komtextbox1 {
   width: 100%;
   border-bottom: 1px solid grey;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .komtextbox2 {
   width: 100%;
-  margin: 0 20px;
   border-bottom: 1px solid grey;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .komtextbox3 {
   width: 100%;
   border-bottom: 1px solid grey;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 p {
@@ -496,4 +499,77 @@ footer {
   .imgkontakt {
     display: none;
   }
+}
+
+/* responsiv: mobil */
+
+@media screen and (max-width: 414px) {
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav"
+    "hright"
+    "hleft"
+    "main"
+    "footer";
+  }
+
+  /* Navigation */
+
+  nav {
+    display: block;
+  }
+
+  li a {
+    padding: 10px 0 0 0;
+  }
+
+  .navpadding {
+    padding: 10px 10px 30px 10px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  /* Header right */
+
+  header.hright {
+    margin-left: 0;
+  }
+
+  /* Header left */
+
+  .navn {
+    display: none;
+  }
+
+  header.hleft {
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  /* Main */
+
+  main {
+    margin: 0 10px;
+  }
+
+  .boxwrapper {
+    display: block;
+  }
+
+  .box1, .box2, .box3, .box4, .box5, .box6 {
+    margin: 10px 0;
+  }
+
 }
