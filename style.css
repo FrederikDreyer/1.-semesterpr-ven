@@ -236,7 +236,6 @@ main {
 .komwrapper {
   display: flex;
   position: relative;
-  z-index: 2;
 }
 
 .kombox1 {
@@ -302,8 +301,7 @@ p {
   background-image: url(billeder/migmedmac.png);
   position: absolute;
   bottom: 0;
-  right: -370px;
-  z-index: 1;
+  right: -375px;
 }
 
 /* Kontakt */
@@ -436,6 +434,26 @@ footer {
   transition: 0.5s;
 }
 
+.imgbox1 {
+  background-color: #0090C1;
+  width: 100%;
+  height: 100%;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  position: relative;
+}
+
+.imgbox2 {
+  background-color: #38aeef;
+  width: 100%;
+  height: 100%;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  position: relative;
+}
+
 /* responsiv til tablet: vandret*/
 
 @media screen and (max-width: 1024px) {
@@ -464,6 +482,8 @@ footer {
   .imgkom {
     right: -375px;
   }
+
+  /* artikel side */
 
   .box1artikel {
     display: none;
@@ -560,6 +580,8 @@ footer {
 
   /* Main */
 
+  /* Portfolio */
+
   main {
     margin: 0 10px;
   }
@@ -572,4 +594,52 @@ footer {
     margin: 10px 0;
   }
 
+
+  /* Kompetencer */
+
+  .komwrapper {
+    display: block;
+  }
+
+  .kommidt {
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  /* footer */
+
+  footer {
+    display: block;
+  }
+
+  footer p {
+    padding: 10px 0 0 10px
+  }
+
+  footer ul {
+    padding: 0 10px
+  }
+
+  .footercolor {
+    padding: 20px 0;
+  }
+
+  /* artikel side */
+
+  .artikelimgwrapper {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  h2 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  h2 {
+    font-size: 40px;
+  }
 }
