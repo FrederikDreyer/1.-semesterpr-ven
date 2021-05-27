@@ -433,7 +433,7 @@ footer {
   transition: 0.5s;
 }
 
-/* responsiv til tablet */
+/* responsiv til tablet: vandret*/
 
 @media screen and (max-width: 1024px) {
   .wrapper {
@@ -445,5 +445,55 @@ footer {
     ". hleft hright hright"
     ". main main ."
     "aleft footer footer aright";
+  }
+
+  .boxtexst {
+    bottom: 0%;
+  }
+
+  .imgkontakt {
+    width: 333px;
+    height: 500px;
+    background-image: url(billeder/migmedmobilipad.png);
+    left: -333px;
+  }
+
+  .imgkom {
+    right: -375px;
+  }
+
+  .box1artikel {
+    display: none;
+  }
+
+}
+
+/* responsiv til tablet: lodret */
+
+/* test */
+@media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 55px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .boxtexst {
+    font-size: 18px;
+  }
+
+  .imgkom {
+    display: none;
+  }
+
+  .imgkontakt {
+    display: none;
   }
 }
