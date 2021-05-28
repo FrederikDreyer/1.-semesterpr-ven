@@ -298,18 +298,21 @@ main {
 
 .komtextbox1 {
   width: 100%;
+  height: auto;
   border-bottom: 1px solid grey;
   padding: 20px 0;
 }
 
 .komtextbox2 {
   width: 100%;
+  height: auto;
   border-bottom: 1px solid grey;
   padding: 20px 0;
 }
 
 .komtextbox3 {
   width: 100%;
+  height: auto;
   border-bottom: 1px solid grey;
   padding: 20px 0;
 }
@@ -341,6 +344,7 @@ p {
   margin-bottom: 100px;
   padding: 40px;
   position: relative;
+  margin-top: 40px;
 }
 
 h4 {
