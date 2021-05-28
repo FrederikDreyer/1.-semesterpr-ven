@@ -226,6 +226,31 @@ main {
   transition: 0.5s;
 }
 
+/* Om Mig */
+
+#ommig {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.omwrapper {
+  display: flex;
+}
+
+.omtext {
+  width: 100%;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.omimg {
+  background-color: #1C3F74;
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+}
+
 /* Kompetencer */
 
 #kompetencer {
