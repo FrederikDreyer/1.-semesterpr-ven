@@ -518,7 +518,6 @@ footer {
 
 /* responsiv til tablet: lodret */
 
-/* test */
 @media screen and (max-width: 768px) {
 
   h1 {
@@ -619,6 +618,17 @@ footer {
     margin: 10px 0;
   }
 
+
+  /* OM MIG */
+
+  .omwrapper {
+    display: block;
+  }
+
+  .omimg {
+    margin-left: 0;
+    margin-top: 10px;
+  }
 
   /* Kompetencer */
 
