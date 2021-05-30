@@ -91,21 +91,18 @@ h3 {
   padding: 40px 0;
 }
 
-.butnhead {
+.knap {
+  color: white;
+  text-decoration: none;
   background-color: #1C3F74;
   padding: 10px 20px;
   border-radius: 15px;
+  font-size: 25px;
+  font-family: helvetica;
   border: none;
 }
 
-.butntext {
-  color: white;
-  font-size: 25px;
-  font-family: helvetica;
-  text-decoration: none;
-}
-
-.butnhead:hover {
+.knap:hover {
   background-color: #0090C1;
   transition: 0.5s;
 }
@@ -419,6 +416,10 @@ footer {
 
 /* smukpynt side tilføjelser */
 
+.logo {
+  text-decoration: none;
+}
+
 .box1artikel {
   background-color: #1C3F74;
   width: 100%;
@@ -439,6 +440,15 @@ footer {
 #smukpyntlink {
   text-decoration: none;
   color: black;
+}
+
+#xdlink {
+  text-decoration: none;
+  color: black;
+}
+
+#xdlink:hover {
+  color: #1C3F74;  
 }
 
 #smukpyntlink:hover {
