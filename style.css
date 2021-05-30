@@ -71,6 +71,10 @@ li a {
   font-weight: bold;
 }
 
+li a:hover {
+  color: #1C3F74;
+}
+
 /* All in the header */
 
 /* header to the left */
@@ -362,9 +366,17 @@ h4 {
   color: white;
 }
 
+.linkedinlink:hover {
+  color: lightgrey;
+}
+
 .kontaktlink {
   text-decoration: none;
   color: white;
+}
+
+.kontaktlink:hover {
+  color: lightgrey;
 }
 
 /* Billede til kontakt */
